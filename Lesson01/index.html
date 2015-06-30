@@ -4,14 +4,7 @@
     <title>COMP397 lesson 1</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="css/main.css" rel="stylesheet" /><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-    <script type="text/javascript">
-    $(function () {
-        init();
-    });
-    </script>
-
+    <link href="css/main.css" rel="stylesheet" />
 </head>
 <body>
     <div>
@@ -25,11 +18,23 @@
             <img src="http://placehold.it/30x30/" alt="" />
         </p>
     </div>
+    <canvas id="canvas" width="320" height="480"></canvas>
+
     <!-- Javascript section-->
+    <script src="scripts/lib/easeljs-0.8.0.min.js"></script>
+    <script src="scripts/lib/preloadjs-0.6.0.min.js"></script>
+    <script src="scripts/lib/soundjs-0.6.0.min.js"></script>
+    <script src="scripts/lib/tweenjs-0.6.0.min.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
     <script src="scripts/game.js"></script>
-    <script>
-       
+    <script type="text/javascript">
+    $(function () {
+        init();
+    });
     </script>
+
+
     
 </body>
 </html>
