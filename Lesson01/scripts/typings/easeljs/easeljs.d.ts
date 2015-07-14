@@ -848,7 +848,7 @@ declare module createjs {
 
     export class SpriteStage extends Stage
         {
-        constructor(canvas: HTMLCanvasElement | string, preserveDrawingBuffer?: boolean, antialias?: boolean);
+        constructor(canvas: HTMLCanvasElement | string |any, preserveDrawingBuffer?: boolean, antialias?: boolean);
 
         // properties
         static INDICES_PER_BOX: number;
