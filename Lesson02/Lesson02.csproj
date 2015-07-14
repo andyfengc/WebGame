@@ -8,12 +8,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{7773457D-DFAC-491F-B7C9-227FFA9EB8BF}</ProjectGuid>
+    <ProjectGuid>{BD78E72C-8B18-4D14-A54E-875EE1AF1399}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lesson01</RootNamespace>
-    <AssemblyName>Lesson01</AssemblyName>
+    <RootNamespace>Lesson02</RootNamespace>
+    <AssemblyName>Lesson02</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -59,27 +59,27 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bootStrap.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="css\main.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="HtmlPage1.html" />
-    <Content Include="Icon.png" />
-    <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
-    <None Include="scripts\jquery-1.9.1.intellisense.js" />
-    <Content Include="scripts\bootstrap.js" />
-    <Content Include="scripts\bootstrap.min.js" />
-    <Content Include="scripts\jquery-1.9.1.js" />
-    <Content Include="scripts\jquery-1.9.1.min.js" />
-    <Content Include="scripts\jquery-1.9.1.min.map" />
+    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Icon.png" />
+    <Content Include="index.html" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -88,35 +88,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\main.css" />
-    <Content Include="index.html" />
-    <Content Include="scripts\lib\easeljs-0.8.0.min.js" />
-    <Content Include="scripts\lib\preloadjs-0.6.0.min.js" />
-    <Content Include="scripts\lib\soundjs-0.6.0.min.js" />
-    <Content Include="scripts\lib\tweenjs-0.6.0.min.js" />
-    <Content Include="scripts\npm.js" />
+    <Content Include="Scripts\lib\easeljs-0.8.0.min.js" />
+    <Content Include="Scripts\lib\preloadjs-0.6.0.min.js" />
+    <Content Include="Scripts\lib\soundjs-0.6.0.min.js" />
+    <Content Include="Scripts\lib\tweenjs-0.6.0.min.js" />
+    <Content Include="Scripts\npm.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="assets\audio\" />
-    <Folder Include="assets\fonts\" />
-    <Folder Include="assets\images\" />
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="scripts\game.ts" />
-    <TypeScriptCompile Include="scripts\typings\createjs-lib\createjs-lib.d.ts" />
-    <TypeScriptCompile Include="scripts\typings\easeljs\easeljs.d.ts" />
-    <TypeScriptCompile Include="scripts\typings\preloadjs\preloadjs.d.ts" />
-    <TypeScriptCompile Include="scripts\typings\soundjs\soundjs.d.ts" />
-    <TypeScriptCompile Include="scripts\typings\tweenjs\tweenjs.d.ts" />
-    <TypeScriptCompile Include="scripts\typings\webaudioapi\waa-20120802.d.ts" />
-    <TypeScriptCompile Include="scripts\typings\webaudioapi\waa-nightly.d.ts" />
-    <TypeScriptCompile Include="scripts\typings\webaudioapi\waa.d.ts" />
-    <TypeScriptCompile Include="scripts\typings\webrtc\MediaStream.d.ts" />
-    <TypeScriptCompile Include="scripts\typings\webrtc\RTCPeerConnection.d.ts" />
+    <TypeScriptCompile Include="Scripts\game.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -132,9 +115,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>53268</DevelopmentServerPort>
+          <DevelopmentServerPort>7811</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:53268/</IISUrl>
+          <IISUrl>http://localhost:7811/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

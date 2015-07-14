@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div>
+        Please enter name: <br />
+        <input type="text" id="name" />
+        <input type="button" value="Click" onclick="hello();"/>
+    </div>
+    <script>
+
+        var A = (function () {
+            function Person(name) {
+                this.name = name;
+            }
+
+            var m = function () {
+                return "Hello " + this.name;
+            };
+
+            Person.prototype.getGreeting = m;
+
+            return Person;
+        })();
+
+        function hello() {
+            var name = document.getElementById("name").value;
+            var result = new A(name).getGreeting();
+            alert(result)
+        }
+    </script>
+</body>
+</html>
